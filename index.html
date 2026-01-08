@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Algorithm Processor</title>
+  <link rel="stylesheet" href="/src/style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>Algorithm Processor</h1>
+    <form id="algorithmForm">
+      <label>
+        Enter a number:
+        <input type="number" id="numberInput" required />
+      </label>
+      <label>
+        Enter a name:
+        <input type="text" id="nameInput" required />
+      </label>
+      <label>
+        Enter numbers (comma-separated):
+        <input type="text" id="arrayInput" placeholder="e.g., 1,2,3,6" required />
+      </label>
+      <button type="submit">Process</button>
+    </form>
+    <div id="results" class="results"></div>
+  </div>
+
+  <script type="module" src="/src/main.js"></script>
+</body>
+</html>
